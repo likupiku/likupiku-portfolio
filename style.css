@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 70px;
 }
 
 .orange-color {
@@ -13,6 +13,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 125px;
 }
 
 .half-width {
@@ -34,7 +35,25 @@ section {
     border-radius: 5%;
 }
 
+.color {
+    color: aliceblue;
+}
+
+.rain {
+    color: aqua;
+}
+
 .top-banner {
-    background-image: url(images/top-banner.png);
+    background-image: url(images/pinik.png.webp);
     background-repeat: no-repeat;
+
+}
+
+.fire {
+    color: white;
+    background-color: slategrey;
+}
+
+.dream-big {
+    background-image: url(images/circle.png.jpg);
 }
