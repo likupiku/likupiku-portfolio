@@ -11,15 +11,27 @@ h1 {
     color: orange;
 }
 
+.welcome-color {
+    color: lightblue;
+}
+
 section {
     display: flex;
     margin-bottom: 125px;
+    padding-top: 5%;
 }
 
 .half-width {
     width: 50%;
     padding-left: 5%;
+    padding-bottom: 5%;
+    padding-right: 2%;
 
+
+}
+
+.welcome {
+    color: white;
 }
 
 .half-width img {
@@ -35,6 +47,15 @@ section {
     border-radius: 5%;
 }
 
+.link-button2 {
+    text-decoration: none;
+    background-image: linear-gradient(orange, black);
+    color: white;
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 10%;
+}
+
 .color {
     color: aliceblue;
 }
@@ -47,6 +68,7 @@ section {
     background-image: url(images/pinik.png.webp);
     background-repeat: no-repeat;
 
+
 }
 
 .fire {
@@ -56,4 +78,8 @@ section {
 
 .dream-big {
     background-image: url(images/circle.png.jpg);
+}
+
+p {
+    text-align: justify;
 }
