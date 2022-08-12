@@ -11,11 +11,16 @@ h1 {
     color: orange;
 }
 
+h2 {
+    font-size: 40px;
+    color: silver;
+}
+
 .welcome-color {
     color: lightblue;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 125px;
     padding-top: 5%;
@@ -82,4 +87,26 @@ section {
 
 p {
     text-align: justify;
+}
+
+.experience-area {
+    background-image: url(images/blue-space.png.webp);
+
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.effect {
+    color: snow;
+}
+
+.color {
+    color: seashell;
 }
