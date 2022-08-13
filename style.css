@@ -113,3 +113,16 @@ p {
     color: seashell;
     margin-left: 5%;
 }
+
+#Full-Stack-Developer {
+    border-left: 7px solid lightgray;
+}
+
+#Baby-Web-Developer {
+    border-left: 7px solid mediumslateblue;
+}
+
+footer p {
+    text-align: center;
+    background-image: linear-gradient(orange, white);
+}
