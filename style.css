@@ -23,14 +23,17 @@ h2 {
 .flexible-container {
     display: flex;
     margin-bottom: 125px;
-    padding-top: 5%;
+    /* padding-top: 5%; */
+}
+
+.half-width img {
+    margin-top: 5%;
 }
 
 .half-width {
     width: 50%;
-    padding-left: 5%;
-    padding-bottom: 5%;
-    padding-right: 2%;
+    padding-left: 4%;
+
 
 
 }
@@ -50,6 +53,7 @@ h2 {
     font-weight: 700;
     padding: 10px 40px;
     border-radius: 5%;
+    border: 2px solid green;
 }
 
 .link-button2 {
@@ -61,13 +65,13 @@ h2 {
     border-radius: 10%;
 }
 
-.color {
+#para-color {
     color: aliceblue;
-
 }
 
 .rain {
     color: aqua;
+    border: 2px solid blue;
 }
 
 .top-banner {
@@ -84,10 +88,6 @@ h2 {
 
 .dream-big {
     background-image: url(images/circle.png.jpg);
-}
-
-p {
-    text-align: justify;
 }
 
 .experience-area {
@@ -124,5 +124,5 @@ p {
 
 footer p {
     text-align: center;
-    background-image: linear-gradient(orange, white);
+    background-image: linear-gradien(orange, white);
 }
